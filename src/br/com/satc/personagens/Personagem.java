@@ -406,5 +406,11 @@ public abstract class Personagem implements IPersonagem {
     public void setVelocidadeAtaque(int velocidadeAtaque) {
         this.velocidadeAtaque = velocidadeAtaque;
     }
+    
+    public void receberDano(int dano){
+        this.hp-=dano;
+        
+        
+    }
 
 }

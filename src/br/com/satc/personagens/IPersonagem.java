@@ -10,7 +10,7 @@ package br.com.satc.personagens;
  * @author Markson
  */
 public interface IPersonagem {
-    public void atacar();
+    public void atacar(Personagem personagem);
     public void bloquear();
     
        
